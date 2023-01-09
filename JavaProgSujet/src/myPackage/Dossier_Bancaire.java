@@ -30,13 +30,9 @@ public class Dossier_Bancaire {
     public void remunerer() {
     	ce.Remunerer();
     }
-<<<<<<< HEAD
-	
-    
-=======
-	
-    
+
+
     //ce commentaire est vraiment sur new_dev -> commit exo4 qst2.3
     //ce com est aussi sur new_dev -> commit exo4 qst2.4
->>>>>>> new_dev
+
 }
