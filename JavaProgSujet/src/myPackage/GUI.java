@@ -13,12 +13,12 @@ import javax.swing.JButton;
 public class GUI  implements ActionListener 
 {
 
-	private DossierBancaire m_dossier;
+	private Dossier_Bancaire m_dossier;
 	private JTextField m_saisie_depot;
 	private JTextField m_display_solde;
 	private JButton m_remunerer;
 	// Constructeur
-    public GUI(DossierBancaire d)
+    public GUI(Dossier_Bancaire d)
     {
     	//Dossier
     	m_dossier 			= d;

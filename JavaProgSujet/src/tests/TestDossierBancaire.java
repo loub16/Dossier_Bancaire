@@ -1,7 +1,7 @@
 package tests;
 
 import static org.junit.Assert.*;
-import myPackage.DossierBancaire;
+import myPackage.Dossier_Bancaire;
 
 import org.junit.Test;
 
@@ -11,7 +11,7 @@ public class TestDossierBancaire {
 	@Test  
 	public void test1_1() 
 	{
-		DossierBancaire dossier=new DossierBancaire();
+		Dossier_Bancaire dossier=new Dossier_Bancaire();
 		dossier.deposer(100);
 		assertEquals(100,dossier.get_solde(),0); //voir documentation en ligne sur assertions Junit 
 	}
