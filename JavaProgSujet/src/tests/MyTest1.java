@@ -15,7 +15,7 @@ public class MyTest1 {
 		dossier.deposer(100);
 		assertEquals(100,dossier.get_solde(),0); //voir documentation en ligne sur assertions Junit 
 	}
-
+	//commentaire yohann
 	@Test
 	public void test1_2() 
 	{
