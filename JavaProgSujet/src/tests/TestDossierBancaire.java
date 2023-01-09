@@ -1,6 +1,9 @@
 package tests;
 
 import static org.junit.Assert.*;
+
+import java.lang.reflect.Executable;
+
 import myPackage.Dossier_Bancaire;
 
 import org.junit.Test;
@@ -24,6 +27,21 @@ public class TestDossierBancaire {
 		dossier.remunerer();
 		
 		assertEquals(102.04,dossier.get_solde(),0.01);
+		
+	}
+	
+	@Test
+	public void test1_3()
+	{
+		Dossier_Bancaire dossier=new Dossier_Bancaire();
+		dossier.deposer(100);
+		
+		dossier.retirer(25);
+		assertEquals(75,dossier.get_solde(),0);
+		
+		assertThrows(IllegalArgumentException.class, () -> {
+			dossier.retirer(150);
+		});
 		
 	}
 

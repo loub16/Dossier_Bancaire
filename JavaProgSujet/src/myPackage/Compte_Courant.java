@@ -13,6 +13,16 @@ public class Compte_Courant implements Compte{
 		montant += m;
 		
 	}
+	
+	public void Retirer(double m){ 
+		if(m<=this.getSolde()) {
+			montant -= m;
+		}
+		else {
+			throw new IllegalArgumentException("Solde compte courant inferieur au montant du retrait");
+		}
+
+	}
 
 	@Override
 	public double getSolde() {

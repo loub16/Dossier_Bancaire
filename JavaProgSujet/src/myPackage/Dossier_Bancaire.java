@@ -22,6 +22,10 @@ public class Dossier_Bancaire {
     	cc.Crediter(quarante);
     	ce.Crediter(soixante);
     }
+    
+    public void retirer(double value){
+    	cc.Retirer(value);
+    }
    
     public double get_solde() {
     	return cc.getSolde() + ce.getSolde();
