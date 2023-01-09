@@ -2,6 +2,9 @@ package myPackage;
 
 public class Dossier_Bancaire {
 	
+	//qst3 exo4
+    //qst1 exo4
+	
 	private Compte_Courant cc;
 	private Compte_Epargne ce;
 	
@@ -27,7 +30,13 @@ public class Dossier_Bancaire {
     public void remunerer() {
     	ce.Remunerer();
     }
-	//qst3 exo4
-    //qst1 exo4
+<<<<<<< HEAD
+	
     
+=======
+	
+    
+    //ce commentaire est vraiment sur new_dev -> commit exo4 qst2.3
+    //ce com est aussi sur new_dev -> commit exo4 qst2.4
+>>>>>>> new_dev
 }
