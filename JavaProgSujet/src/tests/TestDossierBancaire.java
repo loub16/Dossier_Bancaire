@@ -6,7 +6,7 @@ import myPackage.DossierBancaire;
 import org.junit.Test;
 
 //The Test annotation indicates that the public void method to which it is attached can be run as a test case.
-public class MyTest1 {
+public class TestDossierBancaire {
 
 	@Test  
 	public void test1_1() 
@@ -15,7 +15,7 @@ public class MyTest1 {
 		dossier.deposer(100);
 		assertEquals(100,dossier.get_solde(),0); //voir documentation en ligne sur assertions Junit 
 	}
-	//commentaire yohann
+	
 	@Test
 	public void test1_2() 
 	{
