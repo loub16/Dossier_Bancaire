@@ -13,4 +13,6 @@ public class DossierBancaire {
     public void remunerer() {}
 	
     private double m_solde;
+    
+    //commentaire lou
 }
