@@ -29,6 +29,6 @@ public class Dossier_Bancaire {
     }
 	
     
-    //ce commentaire est vraiment sur new_dev
-    
+    //ce commentaire est vraiment sur new_dev -> commit exo4 qst2.3
+    //ce com est aussi sur new_dev -> commit exo4 qst2.4
 }
