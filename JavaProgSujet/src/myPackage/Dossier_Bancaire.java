@@ -9,9 +9,7 @@ public class Dossier_Bancaire {
     public Dossier_Bancaire()
     {
     	cc = new Compte_Courant(0);
-    	ce = new Compte_Epargne(0);
-
-    	
+    	ce = new Compte_Epargne(0);	
     }
     
     public void deposer(double value) {

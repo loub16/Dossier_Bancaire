@@ -19,7 +19,12 @@ public class TestDossierBancaire {
 	@Test
 	public void test1_2() 
 	{
-		//fail("Test1_2 Not yet implemented");
+		Dossier_Bancaire dossier=new Dossier_Bancaire();
+		dossier.deposer(100);
+		dossier.remunerer();
+		
+		assertEquals(102.04,dossier.get_solde(),0.01);
+		
 	}
 
 }
